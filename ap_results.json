@@ -1,0 +1,22 @@
+{
+ "results_test_lora": {
+  "image_AP": 0.9744416711691939,
+  "image_AUROC": 0.9927140532845231,
+  "pixel_IoU_resam": 0.47760708626979154,
+  "pixel_AP_soft": 0.6465432550149689,
+  "pixel_AUROC_soft": 0.8895109645594285,
+  "pixel_AP_binary": 0.5594076796253132,
+  "pixel_AUROC_binary": 0.8064784533331132,
+  "pixel_pos_rate": 0.0033225594093929545
+ },
+ "results_test_vllm": {
+  "image_AP": 0.9727167233019987,
+  "image_AUROC": 0.9958206223306895,
+  "pixel_IoU_resam": 0.42728875524438814,
+  "pixel_AP_soft": 0.604230880199701,
+  "pixel_AUROC_soft": 0.8861076869348047,
+  "pixel_AP_binary": 0.49612754118900393,
+  "pixel_AUROC_binary": 0.8008675728269756,
+  "pixel_pos_rate": 0.0033225594093929545
+ }
+}

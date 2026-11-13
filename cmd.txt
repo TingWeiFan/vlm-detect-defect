@@ -1,0 +1,3 @@
+python train_lora.py --dataset kolektorsdd2-DatasetNinja/train --clahe 2.0 --out lora_qwen3vl2b_clahe
+
+python detect_defect.py --lora lora_qwen3vl2b --cls-threshold 0.009 --images a.png --out out/
