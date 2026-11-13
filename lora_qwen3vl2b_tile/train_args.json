@@ -1,0 +1,17 @@
+{
+ "dataset": "kolektorsdd2-DatasetNinja/train",
+ "model": "Qwen/Qwen3-VL-2B-Instruct",
+ "out": "lora_qwen3vl2b_tile",
+ "epochs": 2,
+ "lr": 0.0001,
+ "grad_accum": 8,
+ "rank": 16,
+ "upscale": 4.0,
+ "cls_upscale": 4.0,
+ "tile": 1,
+ "clahe": 0.0,
+ "pos_repeat": 2,
+ "neg_ratio": 1.0,
+ "val_frac": 0.15,
+ "seed": 0
+}
